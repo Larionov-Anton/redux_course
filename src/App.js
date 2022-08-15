@@ -1,5 +1,6 @@
 import './App.css';
-import Likes from './likes';
+import Comments from './Comments';
+import Likes from './Likes';
 import Tittle from './Title';
 
 
@@ -14,6 +15,7 @@ function App() {
 				<Tittle />
 				<Likes />
           </div>
+			 <Comments />
         </div>
       </div>
     </div>
