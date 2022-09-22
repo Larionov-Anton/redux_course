@@ -10,7 +10,6 @@ import Tittle from './Title';
 function App() {
 
 	const error = useSelector(state => state.appReducer.error);
-	console.log(error);
 
   return (
     <div className="App">
